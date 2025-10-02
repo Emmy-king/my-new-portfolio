@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EKING Graphics Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">EmmY-KinG</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to My Graphic Design Portfolio</h1>
+        <p>Showcasing creative designs that tell a story.</p>
+        <a href="#portfolio" class="cta-button">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="img/emma.jpg" alt="Your Photo" class="about-img">
+            <p>
+                My name is ODEBUNMI EMMANUEL,I'm a passionate graphic designer with [5 years] of experience creating visually stunning designs for
+                clients across various industries. My expertise includes branding, illustration, and digital art. I love
+                turning ideas into captivating visuals that leave a lasting impression.
+            </p>
+        </div>
+    </section>
+
+        <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>My Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Flyer Design</h3>
+                <p>Eye-catching flyers that grab attention and convey your message with style and impact.</p>
+            </div>
+            <div class="service-card">
+                <h3>Logo Design</h3>
+                <p>Custom logos that capture your brand's essence and stand the test of time.</p>
+            </div>
+            <div class="service-card">
+                <h3>Calendar Design</h3>
+                <p>Beautifully designed calendars blending functionality with artistic flair for year-round appeal.</p>
+            </div>
+            <div class="service-card">
+                <h3>Brochure Design</h3>
+                <p>Professional brochures that tell your story through compelling layouts and visuals.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2>My Work</h2>
+        <div class="portfolio-grid">
+            <!-- Repeat this for each portfolio item -->
+            <div class="portfolio-item">
+                <img src="img/NEW MONTH.jpg" alt="Project 1" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Project Title</h3>
+                    <p>A New Month Flyer Design.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/free.jpg" alt="Project 2" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Project Title</h3>
+                    <p>My Logo Design</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/free1.jpg" alt="Project 2" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Project Title</h3>
+                    <p>Logo Design</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/hhho.jpg" alt="Project 2" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Project Title</h3>
+                    <p>church design</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/WOME - Copy.jpg" alt="Project 2" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Project Title</h3>
+                    <p>church Flyer</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/reeee - Copy.jpg" alt="Project 2" class="portfolio-img">
+                <div class="portfolio-overlay">
+                    <h3>Project Title</h3>
+                    <p>church design</p>
+                </div>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+        <div class="button1"><a href="more.html" class="button">View More</a></div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Odebunmi Emmanuel. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/eking_graphics?igsh=MTY1enU3ajV1cTRoNw%3D%3D&utm_source=qr"
+                target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1F38iXNKC6/?mibextid=wwXIfr" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://dribbble.com/yourprofile" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- Modal for Image Zoom -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
